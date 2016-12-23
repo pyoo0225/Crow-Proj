@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* main body stuff */
+
+body {
+  float: auto;
+  display: block;
+  text-align: left;
+  padding: 30px 100px 0px 100px;
+}
+
+
+/* basic navi shit bruh */
+
+ul {
+  margin: auto;
+  background-color: black;
+}
+
+li {
+  float: center;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: red;
+  }
+
+.search {
+  display: none;
+}
+
+.search:hover {
+  display: block;
+  position: absolute;
+}
+
+/* dropdown shit fml */
+
+.dropdown {
+  display: auto;
+}
+
+.dropdown-content {
+  display: none;
+
+}
